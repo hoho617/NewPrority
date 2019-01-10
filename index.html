@@ -13,8 +13,9 @@
 	<body>
 		<div class="wrap-container wrap-rwd">
 			<div class="screen-item screen-item-one">
-				<video class="bg-video" id="myVideo" poster="img/poster.png" loop>
-					<source src="mp4/videoBg11.mp4" type="video/mp4"></source>
+				<video class="bg-video" id="myVideo" loop>
+					<source src="mp4/media1.mp4" type="video/mp4"></source>
+				</video>
 				</video>
 				<div class="screen-all">
 					<div class="w">
@@ -166,10 +167,10 @@
 		<script type="text/javascript" src="js/hash.js"></script>
 		<script type="text/javascript">
 			$(function() {
-								var myVideo = $("#myVideo")[0];
-								setTimeout(function() {
-									myVideo.play();
-								}, 2000)
+				var myVideo = $("#myVideo")[0];
+				setTimeout(function() {
+					myVideo.play();
+				}, 1000)
 			})
 		</script>
 		<script type="text/javascript">
